@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF02B35B1AB80A4000A39F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF02B35A1AB80A4000A39F16 /* main.m */; };
+		AF02B35E1AB80A4000A39F16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF02B35D1AB80A4000A39F16 /* AppDelegate.m */; };
+		AF02B3661AB80A4000A39F16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF02B3651AB80A4000A39F16 /* Images.xcassets */; };
+		AF02B3751AB80A4000A39F16 /* kuaidiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF02B3741AB80A4000A39F16 /* kuaidiTests.m */; };
+		AF0F21541ABBB85000593868 /* KuaidiCompanyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0F21531ABBB85000593868 /* KuaidiCompanyRequest.m */; };
+		AF144FDE1AC161F100666BF1 /* PointView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF144FDD1AC161F100666BF1 /* PointView.m */; };
+		AF234DD31AB91B71004B6C77 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF234DD21AB91B71004B6C77 /* QueryViewController.m */; };
+		AF234DD71AB91BC8004B6C77 /* KuaidiTypeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF234DD61AB91BC8004B6C77 /* KuaidiTypeRequest.m */; };
+		AF234DDA1AB95A73004B6C77 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AF234DD91AB95A73004B6C77 /* MBProgressHUD.m */; };
+		AF460D151AC2C86E00DB53B4 /* StatusDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF460D141AC2C86E00DB53B4 /* StatusDetailViewController.m */; };
+		AF8436BB1ABAA92400E0F266 /* KuaidiInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8436BA1ABAA92400E0F266 /* KuaidiInfoRequest.m */; };
+		AF8436C01ABAB8B100E0F266 /* KuaidiDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8436BF1ABAB8B100E0F266 /* KuaidiDataEntity.m */; };
+		AF8436C31ABAC1DA00E0F266 /* CompleteKuaidiInfoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8436C21ABAC1DA00E0F266 /* CompleteKuaidiInfoEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF02B36F1AB80A4000A39F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF02B34D1AB80A4000A39F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF02B3541AB80A4000A39F16;
+			remoteInfo = kuaidi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF02B3551AB80A4000A39F16 /* kuaidi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuaidi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF02B3591AB80A4000A39F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF02B35A1AB80A4000A39F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF02B35C1AB80A4000A39F16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF02B35D1AB80A4000A39F16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF02B3651AB80A4000A39F16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF02B36E1AB80A4000A39F16 /* kuaidiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kuaidiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF02B3731AB80A4000A39F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF02B3741AB80A4000A39F16 /* kuaidiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kuaidiTests.m; sourceTree = "<group>"; };
+		AF0F21521ABBB85000593868 /* KuaidiCompanyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KuaidiCompanyRequest.h; path = API/KuaidiCompanyRequest.h; sourceTree = "<group>"; };
+		AF0F21531ABBB85000593868 /* KuaidiCompanyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KuaidiCompanyRequest.m; path = API/KuaidiCompanyRequest.m; sourceTree = "<group>"; };
+		AF144FDC1AC161F100666BF1 /* PointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointView.h; path = View/PointView.h; sourceTree = "<group>"; };
+		AF144FDD1AC161F100666BF1 /* PointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PointView.m; path = View/PointView.m; sourceTree = "<group>"; };
+		AF234DD11AB91B71004B6C77 /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QueryViewController.h; path = Controllers/QueryViewController.h; sourceTree = "<group>"; };
+		AF234DD21AB91B71004B6C77 /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QueryViewController.m; path = Controllers/QueryViewController.m; sourceTree = "<group>"; };
+		AF234DD51AB91BC8004B6C77 /* KuaidiTypeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KuaidiTypeRequest.h; path = API/KuaidiTypeRequest.h; sourceTree = "<group>"; };
+		AF234DD61AB91BC8004B6C77 /* KuaidiTypeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KuaidiTypeRequest.m; path = API/KuaidiTypeRequest.m; sourceTree = "<group>"; };
+		AF234DD81AB95A73004B6C77 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		AF234DD91AB95A73004B6C77 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		AF460D131AC2C86E00DB53B4 /* StatusDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusDetailViewController.h; path = Controllers/StatusDetailViewController.h; sourceTree = "<group>"; };
+		AF460D141AC2C86E00DB53B4 /* StatusDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusDetailViewController.m; path = Controllers/StatusDetailViewController.m; sourceTree = "<group>"; };
+		AF8436B91ABAA92400E0F266 /* KuaidiInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KuaidiInfoRequest.h; path = API/KuaidiInfoRequest.h; sourceTree = "<group>"; };
+		AF8436BA1ABAA92400E0F266 /* KuaidiInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KuaidiInfoRequest.m; path = API/KuaidiInfoRequest.m; sourceTree = "<group>"; };
+		AF8436BE1ABAB8B100E0F266 /* KuaidiDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KuaidiDataEntity.h; path = Models/KuaidiDataEntity.h; sourceTree = "<group>"; };
+		AF8436BF1ABAB8B100E0F266 /* KuaidiDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KuaidiDataEntity.m; path = Models/KuaidiDataEntity.m; sourceTree = "<group>"; };
+		AF8436C11ABAC1DA00E0F266 /* CompleteKuaidiInfoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompleteKuaidiInfoEntity.h; path = Models/CompleteKuaidiInfoEntity.h; sourceTree = "<group>"; };
+		AF8436C21ABAC1DA00E0F266 /* CompleteKuaidiInfoEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompleteKuaidiInfoEntity.m; path = Models/CompleteKuaidiInfoEntity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF02B3521AB80A4000A39F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF02B36B1AB80A4000A39F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF02B34C1AB80A4000A39F16 = {
+			isa = PBXGroup;
+			children = (
+				AF02B3571AB80A4000A39F16 /* kuaidi */,
+				AF02B3711AB80A4000A39F16 /* kuaidiTests */,
+				AF02B3561AB80A4000A39F16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF02B3561AB80A4000A39F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF02B3551AB80A4000A39F16 /* kuaidi.app */,
+				AF02B36E1AB80A4000A39F16 /* kuaidiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF02B3571AB80A4000A39F16 /* kuaidi */ = {
+			isa = PBXGroup;
+			children = (
+				AF8436BD1ABAB7D900E0F266 /* Models */,
+				AF234DDB1AB95A7E004B6C77 /* MBProgressHUD */,
+				AF234DD41AB91B89004B6C77 /* API */,
+				AF02B37E1AB8186600A39F16 /* Controllers */,
+				AF02B35C1AB80A4000A39F16 /* AppDelegate.h */,
+				AF02B35D1AB80A4000A39F16 /* AppDelegate.m */,
+				AF02B3651AB80A4000A39F16 /* Images.xcassets */,
+				AF02B3581AB80A4000A39F16 /* Supporting Files */,
+				AF144FDF1AC161FA00666BF1 /* View */,
+			);
+			path = kuaidi;
+			sourceTree = "<group>";
+		};
+		AF02B3581AB80A4000A39F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF02B3591AB80A4000A39F16 /* Info.plist */,
+				AF02B35A1AB80A4000A39F16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF02B3711AB80A4000A39F16 /* kuaidiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF02B3741AB80A4000A39F16 /* kuaidiTests.m */,
+				AF02B3721AB80A4000A39F16 /* Supporting Files */,
+			);
+			path = kuaidiTests;
+			sourceTree = "<group>";
+		};
+		AF02B3721AB80A4000A39F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF02B3731AB80A4000A39F16 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF02B37E1AB8186600A39F16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF234DD11AB91B71004B6C77 /* QueryViewController.h */,
+				AF234DD21AB91B71004B6C77 /* QueryViewController.m */,
+				AF460D131AC2C86E00DB53B4 /* StatusDetailViewController.h */,
+				AF460D141AC2C86E00DB53B4 /* StatusDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AF144FDF1AC161FA00666BF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF144FDC1AC161F100666BF1 /* PointView.h */,
+				AF144FDD1AC161F100666BF1 /* PointView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AF234DD41AB91B89004B6C77 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AF234DD51AB91BC8004B6C77 /* KuaidiTypeRequest.h */,
+				AF234DD61AB91BC8004B6C77 /* KuaidiTypeRequest.m */,
+				AF8436B91ABAA92400E0F266 /* KuaidiInfoRequest.h */,
+				AF8436BA1ABAA92400E0F266 /* KuaidiInfoRequest.m */,
+				AF0F21521ABBB85000593868 /* KuaidiCompanyRequest.h */,
+				AF0F21531ABBB85000593868 /* KuaidiCompanyRequest.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		AF234DDB1AB95A7E004B6C77 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AF234DD81AB95A73004B6C77 /* MBProgressHUD.h */,
+				AF234DD91AB95A73004B6C77 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		AF8436BD1ABAB7D900E0F266 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF8436BE1ABAB8B100E0F266 /* KuaidiDataEntity.h */,
+				AF8436BF1ABAB8B100E0F266 /* KuaidiDataEntity.m */,
+				AF8436C11ABAC1DA00E0F266 /* CompleteKuaidiInfoEntity.h */,
+				AF8436C21ABAC1DA00E0F266 /* CompleteKuaidiInfoEntity.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF02B3541AB80A4000A39F16 /* kuaidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF02B3781AB80A4000A39F16 /* Build configuration list for PBXNativeTarget "kuaidi" */;
+			buildPhases = (
+				AF02B3511AB80A4000A39F16 /* Sources */,
+				AF02B3521AB80A4000A39F16 /* Frameworks */,
+				AF02B3531AB80A4000A39F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kuaidi;
+			productName = kuaidi;
+			productReference = AF02B3551AB80A4000A39F16 /* kuaidi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF02B36D1AB80A4000A39F16 /* kuaidiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF02B37B1AB80A4000A39F16 /* Build configuration list for PBXNativeTarget "kuaidiTests" */;
+			buildPhases = (
+				AF02B36A1AB80A4000A39F16 /* Sources */,
+				AF02B36B1AB80A4000A39F16 /* Frameworks */,
+				AF02B36C1AB80A4000A39F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF02B3701AB80A4000A39F16 /* PBXTargetDependency */,
+			);
+			name = kuaidiTests;
+			productName = kuaidiTests;
+			productReference = AF02B36E1AB80A4000A39F16 /* kuaidiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF02B34D1AB80A4000A39F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = baidu;
+				TargetAttributes = {
+					AF02B3541AB80A4000A39F16 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					AF02B36D1AB80A4000A39F16 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = AF02B3541AB80A4000A39F16;
+					};
+				};
+			};
+			buildConfigurationList = AF02B3501AB80A4000A39F16 /* Build configuration list for PBXProject "kuaidi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF02B34C1AB80A4000A39F16;
+			productRefGroup = AF02B3561AB80A4000A39F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF02B3541AB80A4000A39F16 /* kuaidi */,
+				AF02B36D1AB80A4000A39F16 /* kuaidiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF02B3531AB80A4000A39F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF02B3661AB80A4000A39F16 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF02B36C1AB80A4000A39F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF02B3511AB80A4000A39F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF460D151AC2C86E00DB53B4 /* StatusDetailViewController.m in Sources */,
+				AF02B35E1AB80A4000A39F16 /* AppDelegate.m in Sources */,
+				AF8436C31ABAC1DA00E0F266 /* CompleteKuaidiInfoEntity.m in Sources */,
+				AF234DD31AB91B71004B6C77 /* QueryViewController.m in Sources */,
+				AF144FDE1AC161F100666BF1 /* PointView.m in Sources */,
+				AF0F21541ABBB85000593868 /* KuaidiCompanyRequest.m in Sources */,
+				AF234DDA1AB95A73004B6C77 /* MBProgressHUD.m in Sources */,
+				AF8436C01ABAB8B100E0F266 /* KuaidiDataEntity.m in Sources */,
+				AF02B35B1AB80A4000A39F16 /* main.m in Sources */,
+				AF8436BB1ABAA92400E0F266 /* KuaidiInfoRequest.m in Sources */,
+				AF234DD71AB91BC8004B6C77 /* KuaidiTypeRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF02B36A1AB80A4000A39F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF02B3751AB80A4000A39F16 /* kuaidiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF02B3701AB80A4000A39F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF02B3541AB80A4000A39F16 /* kuaidi */;
+			targetProxy = AF02B36F1AB80A4000A39F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF02B3761AB80A4000A39F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF02B3771AB80A4000A39F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF02B3791AB80A4000A39F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = kuaidi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF02B37A1AB80A4000A39F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = kuaidi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF02B37C1AB80A4000A39F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kuaidiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kuaidi.app/kuaidi";
+			};
+			name = Debug;
+		};
+		AF02B37D1AB80A4000A39F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kuaidiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kuaidi.app/kuaidi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF02B3501AB80A4000A39F16 /* Build configuration list for PBXProject "kuaidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF02B3761AB80A4000A39F16 /* Debug */,
+				AF02B3771AB80A4000A39F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF02B3781AB80A4000A39F16 /* Build configuration list for PBXNativeTarget "kuaidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF02B3791AB80A4000A39F16 /* Debug */,
+				AF02B37A1AB80A4000A39F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF02B37B1AB80A4000A39F16 /* Build configuration list for PBXNativeTarget "kuaidiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF02B37C1AB80A4000A39F16 /* Debug */,
+				AF02B37D1AB80A4000A39F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF02B34D1AB80A4000A39F16 /* Project object */;
+}
